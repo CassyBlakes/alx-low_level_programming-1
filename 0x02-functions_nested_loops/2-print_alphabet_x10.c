@@ -2,6 +2,7 @@
 
 /**
  * main - the program prints out alphabet ten times followed by new line
+ * Description: a program with declared main
  * Return: function returns 0
  */
 
