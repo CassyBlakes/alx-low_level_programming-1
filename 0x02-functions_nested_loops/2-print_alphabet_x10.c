@@ -4,17 +4,18 @@
  * main - the program prints out alphabet ten times followed by new line
  * Return: function returns 0
  */
-void print_alpabet_x10(void)
+void print_alphabet_x10(void)
 {
-	int i;
-	char ch;
+	int i; ch;
+	ch = 0;
 
-	for (i = 0; i <= 9; i++)
+	while (i < 10)
 	{
-		for (ch = 'a'; ch <= 'z'; ch++)
+		for (i = 'a'; i <= 'z'; i++)
 		{
-			_putchar(ch);
+			_putchar(i);
 		}
+		ch++;
 		_putchar('\n');
 	}
 }
