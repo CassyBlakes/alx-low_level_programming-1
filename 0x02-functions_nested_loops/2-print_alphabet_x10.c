@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- * main - the program prints out alphabet ten times followed by new line
- * Description: a program with declared main
+ * print_alphabet_x10 - prints out alphabet ten times followed by new line
  * Return: function returns 0
  */
 
