@@ -2,7 +2,7 @@
 
 /**
 * _isalpha - checks if a character is an alphabet
-* and the ASCII value of the character to be checked
+* @c: the ASCII value of the character to be checked
 * Return: the program returns 0 if successful
 */
 int _isalpha(int c)
