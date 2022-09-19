@@ -25,9 +25,9 @@ void rev_string(char *s)
 		i++;
 	}
 	for (i = 0; 1 ; i++)
-        {
+	{
 		if (revString[i] == 0)
 			break;
 		s[i] = revString[i];
-        }
+	}
 }
