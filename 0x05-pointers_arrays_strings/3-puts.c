@@ -9,6 +9,7 @@
 void _puts(char *str)
 {
 	int i;
+
 	for (i = 0; 1; i++)
 	{
 		if (*(str + i) == 0)
