@@ -8,26 +8,22 @@
 */
 void rev_string(char *s)
 {
-	int i, j;
-	int c = 0;
-	char revString[1000];
+	int i, j, k, tempVal;
 
-	for (i = 0; 1 ; i++)
-	{
-		if (s[i] == 0)
-			break;
-		c++;
-	}
 	i = 0;
-	for (j = c - 1; j >= 0; j--)
+	while (s[i] != '\0')
 	{
-		revString[i] = s[j];
 		i++;
 	}
-	for (i = 0; 1 ; i++)
+	j = i - 1;
+	k = 0;
+
+	while (k < j)
 	{
-		if (revString[i] == 0)
-			break;
-		s[i] = revString[i];
+		tempVal = s[k];
+		s[k] = s[j];
+		s[j] = tempVal;
+		k++;
+		j--;
 	}
 }
